@@ -1,0 +1,49 @@
+@media (max-width: 989px) {
+    h1,h2,h3 {
+        font-size: 20px !important;
+    }
+    h4 {
+        font-size: 16px !important;
+    }
+    h5, h6{
+        font-size: 15px !important;
+    }
+    p , a , li , button {
+        font-size: 11px !important;
+    }
+    .navbar .form-content{
+        width:90%;
+    }
+    .navbar .bottom-nav{
+        width: 100% !important;
+    }
+    .navbar .brand-name{
+        margin: 0px;
+    } 
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+        top: unset !important;
+        transform: translate(0px) !important;
+        bottom: 0px !important;
+    }
+    .about-us .content{
+        padding: 0px 10px;
+    }
+    .categroy .nav .nav-item .nav-link{
+        padding: 40px 25px;
+    }
+    .categroy .nav{
+        justify-content: flex-start !important;
+    }
+    footer .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+}
+@media (max-width: 400px) {
+    .navbar .content .brand-name img{
+        width: 100px !important;
+    }
+}
