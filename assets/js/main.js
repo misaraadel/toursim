@@ -1,5 +1,8 @@
 $(document).ready(function () {
     /*start the loading page */
+    $('.datepicker').datepicker({
+        format: 'mm/dd/yyyy',
+    });
     window.addEventListener("load", function () {
         const loader = document.querySelector(".loader");
         loader.className += " hidden";

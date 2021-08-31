@@ -436,10 +436,7 @@ header{
         background-color: #f7f7f7;
         box-shadow: 0px 0px 10px rgba($color: #6A4291 , $alpha: .2);
         border-radius: 10px;
-        
-    }
-    input [type="date"]{
-        appearance: none;
+       
     }
     select{
         appearance: none !important;
@@ -449,9 +446,13 @@ header{
         background-repeat: no-repeat;
         background-position: left 10px top 50%;
         background-size: 15px;
+        color: #999  !important;
         
         option{
             background-color: #f7f7f7 !important;
+            color: #999 !important;
+            font-size: 15px;
+            font-weight: 500;
             &:focus , &:hover{
                 background: #6A4291 !important;
                 color: #fff !important;

@@ -1462,12 +1462,6 @@ header .form-content {
   border-radius: 10px;
 }
 
-header input [type="date"] {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-}
-
 header select {
   -moz-appearance: none !important;
        appearance: none !important;
@@ -1477,10 +1471,14 @@ header select {
   background-repeat: no-repeat;
   background-position: left 10px top 50%;
   background-size: 15px;
+  color: #999  !important;
 }
 
 header select option {
   background-color: #f7f7f7 !important;
+  color: #999 !important;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 header select option:focus, header select option:hover {
