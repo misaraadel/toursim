@@ -1386,7 +1386,6 @@ header {
   padding: 140px 0px;
   background-size: cover !important;
   background-repeat: no-repeat !important;
-  background-position: center !important;
   position: relative;
   z-index: 99;
 }
