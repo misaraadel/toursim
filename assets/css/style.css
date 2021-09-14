@@ -988,14 +988,28 @@ ul {
 
 .navbar {
   width: 100%;
-  background-color: #fff;
-  position: relative;
+  background-color: transparent;
+  position: fixed;
   z-index: 9999;
+  top: 0;
+  left: 0;
   padding: 0px !important;
 }
 
 .navbar .container-fluid {
   padding: 0px  !important;
+}
+
+.navbar.navbar-fixed-top.scrolled {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 10px #fff;
+          box-shadow: 0px 0px 10px #fff;
+  border: none;
+  padding: 0px;
+}
+
+.navbar.navbar-fixed-top.scrolled img {
+  height: 70px;
 }
 
 .navbar .content {
@@ -1017,8 +1031,8 @@ ul {
 }
 
 .navbar .content .nav-toggler {
-  width: 40px;
-  height: 23px;
+  width: 30px;
+  height: 15px;
   position: relative;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
@@ -1038,9 +1052,7 @@ ul {
   -ms-flex-line-pack: center;
       align-content: center;
   cursor: pointer;
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
+  display: none !important;
 }
 
 .navbar .content .nav-toggler span {
@@ -1074,14 +1086,25 @@ ul {
           transform: rotate(-135deg);
 }
 
+.navbar .content .brand-name {
+  width: calc(100% - 40px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .navbar .content .brand-name img {
   width: 300px;
   height: 100px;
   margin: auto;
   -o-object-fit: contain;
      object-fit: contain;
-  -o-object-position: right !important;
-     object-position: right !important;
 }
 
 .navbar .bottom-nav {

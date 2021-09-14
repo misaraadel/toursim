@@ -21,6 +21,12 @@ $(document).ready(function () {
             scrollTop: 0
         }, 100);
     });
+    $(function () {
+        $(document).scroll(function () {
+            var $nav = $(".navbar-fixed-top");
+            $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        });
+    });
      //Wow intit
      wow = new WOW({
         boxClass: 'wow',
