@@ -127,6 +127,7 @@ ul{
     position: relative;
     overflow: hidden;
     cursor: pointer;
+    padding: 0px;
     background-color: #6A4291;
     border: none;
     font-size: 16px;
@@ -211,7 +212,7 @@ ul{
     width: 100%;
     background-color: transparent;
     position: fixed;
-    z-index: 9999;
+    z-index: 999;
     top: 0;
     left: 0;
     padding: 0px !important;

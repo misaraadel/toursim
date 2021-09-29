@@ -170,6 +170,7 @@ ul {
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  padding: 0px;
   background-color: #6A4291;
   border: none;
   font-size: 16px;
@@ -286,7 +287,7 @@ ul {
   width: 100%;
   background-color: transparent;
   position: fixed;
-  z-index: 9999;
+  z-index: 999;
   top: 0;
   left: 0;
   padding: 0px !important;
@@ -1761,16 +1762,16 @@ footer .copyrights p {
   top: 10px;
   left: 10px;
   z-index: 6;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
 }
 
-.search-hotel .box .image-content .rate i {
-  color: #888;
-  margin: 0px 4px;
-  font-size: 16px;
-}
-
-.search-hotel .box .image-content .rate i.active {
+.search-hotel .box .image-content .rate p {
   color: #6A4291;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0px;
 }
 
 .search-hotel .box .content {
@@ -2074,16 +2075,16 @@ footer .copyrights p {
   top: 10px;
   left: 10px;
   z-index: 6;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
 }
 
-.categroy .box .image-content .rate i {
-  color: #888;
-  margin: 0px 4px;
-  font-size: 16px;
-}
-
-.categroy .box .image-content .rate i.active {
+.categroy .box .image-content .rate p {
   color: #6A4291;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0px;
 }
 
 .categroy .box .content {
@@ -2202,28 +2203,28 @@ footer .copyrights p {
 }
 
 .form-content .form-control::-webkit-input-placeholder {
-  color: #999;
+  color: #000;
   font-weight: 500;
   font-size: 15px;
   line-height: 2rem;
 }
 
 .form-content .form-control:-ms-input-placeholder {
-  color: #999;
+  color: #000;
   font-weight: 500;
   font-size: 15px;
   line-height: 2rem;
 }
 
 .form-content .form-control::-ms-input-placeholder {
-  color: #999;
+  color: #000;
   font-weight: 500;
   font-size: 15px;
   line-height: 2rem;
 }
 
 .form-content .form-control::placeholder {
-  color: #999;
+  color: #000;
   font-weight: 500;
   font-size: 15px;
   line-height: 2rem;
@@ -2379,19 +2380,56 @@ footer .copyrights p {
   background-color: #fff;
 }
 
-.filter-content .filter-box {
-  width: 100%;
-  padding: 20px 20px;
-  background-color: rgba(106, 66, 145, 0.02);
-  border-radius: 4px;
+.filter-content .filter-btn {
+  padding: 10px 15px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background: transparent;
+  outline: none;
+  border: 1px solid #6A4291;
+  border-radius: 8px;
 }
 
-.filter-content .filter-box .heading {
-  margin-bottom: 10px !important;
+.filter-content .filter-btn i {
+  color: #6A4291;
+  font-size: 15px;
 }
 
-.filter-content .filter-box .heading h4 {
-  margin: 0px auto !important;
+.filter-content .filter-btn span {
+  color: #6A4291;
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.filter-content .modal .modal-header .close {
+  color: #6A4291 !important;
+  opacity: 1 !important;
+}
+
+.filter-content .modal h5 {
+  color: #6A4291;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.filter-content .modal .form-control {
+  background-color: transparent !important;
+}
+
+.filter-content .modal .modal-footer {
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
 }
 
 .filter-content .box {
@@ -2432,16 +2470,16 @@ footer .copyrights p {
   top: 10px;
   left: 10px;
   z-index: 6;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
 }
 
-.filter-content .box .image-content .rate i {
-  color: #888;
-  margin: 0px 4px;
-  font-size: 16px;
-}
-
-.filter-content .box .image-content .rate i.active {
+.filter-content .box .image-content .rate p {
   color: #6A4291;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0px;
 }
 
 .filter-content .box .content {
